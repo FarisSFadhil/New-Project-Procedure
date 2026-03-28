@@ -26,13 +26,13 @@
 ### Step 2: Open the folder in VS Code
 - Open Visual Studio Code  
 - Click **File → Open Folder**  
-- Select your project folder
+- Select your project folder  
 
 ---
 
 ### Step 3: Initialize Git (GUI only)
 - Click the **Source Control icon** (left sidebar)  
-- Click **“Initialize Repository”**
+- Click **“Initialize Repository”**  
 
 Git is now enabled for your project without using the terminal
 
@@ -49,20 +49,28 @@ Git is now enabled for your project without using the terminal
 ### Step 5: Add a `.gitignore` (GUI)
 - Open the **Extensions sidebar**  
 - Install **GitHub `.gitignore`**  
-- Press `Ctrl + Shift + P` → type `Add .gitignore` → select your project type
+- Press `Ctrl + Shift + P` → type `Add .gitignore` → select your project type  
 
 This creates the `.gitignore` automatically in your project root
 
 ---
 
-### Step 6: Stage changes
+### Step 6: Add a README file locally
+- In the Explorer panel, click **New File**  
+- Name the file `README.md`  
+- Add content describing your project, e.g., project name, description, features, setup instructions  
+- Go to **Source Control tab** → **Stage (+)** → **Commit (✔)** with a message like `Add README file`
+
+---
+
+### Step 7: Stage changes
 - Go to **Source Control**  
 - You’ll see your files under **Changes**  
 - Click the **+ icon** next to each file, or **Stage All Changes**
 
 ---
 
-### Step 7: Commit changes
+### Step 8: Commit changes
 - In the message box at the top, type:  
   ```
   Initial commit
@@ -71,7 +79,7 @@ This creates the `.gitignore` automatically in your project root
 
 ---
 
-### Step 8: Publish to GitHub (GUI only)
+### Step 9: Publish to GitHub (GUI only)
 - Click **“Publish to GitHub”**  
 - Choose **Public** or **Private**  
 - Sign in if prompted  
@@ -79,7 +87,7 @@ This creates the `.gitignore` automatically in your project root
 
 ---
 
-### Step 9: Add a LICENSE file (via GitHub website)
+### Step 10: Add a LICENSE file (via GitHub website)
 - Go to your repository on GitHub (web)  
 - Click **“Add file” → “Create new file”**  
 - Name the file `LICENSE`  
@@ -90,7 +98,7 @@ This creates the `.gitignore` automatically in your project root
 
 ---
 
-### Step 10: Use GitHub Pull Requests (GUI)
+### Step 11: Use GitHub Pull Requests (GUI)
 - Open the **GitHub Pull Requests and Issues** tab (left sidebar) in VS Code  
 - Sign in to your GitHub account  
 - You can now:
@@ -100,12 +108,12 @@ This creates the `.gitignore` automatically in your project root
 
 ---
 
-### Step 11: Continue working (GUI workflow)
+### Step 12: Continue working (GUI workflow)
 - Edit files  
 - Stage (+) and commit (✔) changes  
 - Click **Sync Changes** to push/pull from GitHub
 
 ---
 
-✅ This workflow fully sets up a local project with version control, `.gitignore`, LICENSE, GitHub publishing, and pull request management — all through GUI only.
+✅ This workflow fully sets up a local project with version control, `.gitignore`, README, LICENSE, GitHub publishing, and pull request management — all through GUI only.
 
