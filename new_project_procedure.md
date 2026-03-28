@@ -59,7 +59,9 @@ This creates the `.gitignore` automatically in your project root
 - In the Explorer panel, click **New File**  
 - Name the file `README.md`  
 - Add content describing your project, e.g., project name, description, features, setup instructions  
-- Go to **Source Control tab** → **Stage (+)** → **Commit (✔)** with a message like `Add README file`
+- Go to **Source Control tab** → **Stage (+)** → **Commit (✔)** with a message like `Add README file`  
+
+> **Note:** If this file is in the root directory and named `README.md`, GitHub will automatically display it on your repository homepage.
 
 ---
 
