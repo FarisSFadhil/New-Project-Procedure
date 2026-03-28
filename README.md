@@ -1,0 +1,1 @@
+This is a simple step by step procedure to follow each time a new project is needed to be created using Visual Studio Code and published to GitHub.
